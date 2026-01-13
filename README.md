@@ -1,8 +1,8 @@
 # Java Learning Programs - Semester 5
 
-> **College Laboratory Programs** | A collection of Java programs completed during coursework in Semester 5 while learning core Java concepts and Object-Oriented Programming principles.
+> **College Laboratory Programs** | A collection of Java programs completed during the 5th Semester laboratory cycle while pursuing Bachelor of Science in Computer Science at Farook College, focusing on core Java concepts and Object-Oriented Programming principles.
 
-This repository contains a comprehensive collection of structured Java programs that progress from fundamental programming concepts through advanced Object-Oriented Design patterns. Each program is designed as a standalone learning module while building a cohesive understanding of Java fundamentals.
+This repository contains a comprehensive collection of structured Java programs that progress from fundamental programming concepts through advanced Object-Oriented Design patterns. Each program was developed as part of the Semester 5 Java Lab curriculum and is designed as a standalone learning module while building a cohesive understanding of Java fundamentals and object-oriented concepts.
 
 ## 📚 Program Catalog
 
@@ -154,6 +154,9 @@ These programs were developed in collaboration with [@MNK-21](https://github.com
 
 ---
 
+**Institution:** Farook College  
+**Program:** Bachelor of Science in Computer Science  
 **Course:** Semester 5 Java Programming Laboratory  
+**Curriculum Focus:** Core Java Concepts and Object-Oriented Programming  
 **Last Updated:** January 2026  
 **License:** Educational Use
