@@ -11,7 +11,7 @@ class Factorial {
 }
 class Recursion{
 public static void main(String Args[]){
-factorial f = new factorial();
+Factorial f = new Factorial();
 System.out.println("Factorial of 5 is"+" "+f.fact(5));
 }
 // Main class to test factorial calculation
