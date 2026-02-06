@@ -16,8 +16,14 @@ class GreatestOfThree extends GreatestOfTwo {
         super(x, y);
         this.z = z;
     }
-    int greatest() {
-        return Math.max(Math.max(x, y), z);
+        int greatest() {
+            if (x >= y && x >= z) {
+                return x;
+            } else if (y >= x && y >= z) {
+                return y;
+            } else {
+                return z;
+            }
     }
 }
 
