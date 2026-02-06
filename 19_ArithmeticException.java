@@ -1,17 +1,23 @@
-import java.util.*;
-class ArithmeticCheck{
-public static void main(String args[]){
-Scanner s=new Scanner(System.in);
-    	System.out.println("Enter The Number 10 or less value");
-    	int k = s.nextInt();
-try{
-if(k<10){
-throw new ArithmeticException("Value of k is less than 10");
-}else{
-System.out.println("k = "+k+" is Valid");
-}
-}catch(ArithmeticException e){
-System.out.println("Exception Caught:"+e);
-}
-}
+import java.util.Scanner;
+
+// Demonstrates custom exception handling for input validation
+class ArithmeticCheck {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("Enter a number (10 or greater): ");
+		int k = scanner.nextInt();
+
+		try {
+			if (k < 10) {
+				// Throw exception if input is less than 10
+				throw new ArithmeticException("Value of k is less than 10");
+			} else {
+				System.out.println("k = " + k + " is valid.");
+			}
+		} catch (ArithmeticException e) {
+			System.out.println("Exception caught: " + e.getMessage());
+		}
+
+		scanner.close();
+	}
 }
