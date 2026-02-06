@@ -9,7 +9,7 @@ Circle(double radius){
     this.radius=radius;
 }
 public void area(){
-    double area=3.14*radius*radius;
+    double area = 3.14 * radius * radius;
     System.out.println("Area Of Circle: "+area);
 }
 }
@@ -20,7 +20,7 @@ this.radius=radius;
 }
 public void area()
 {
-double area=4*3.14*radius*radius;
+double area = 4 * 3.14 * radius * radius;
 System.out.println("Area Of Sphere: "+area);
 }
 }
