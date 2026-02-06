@@ -12,42 +12,44 @@
 
 
 class Employee {
-    String Name;
+    String name;
     int age;
-    float Basic_Pay;
+    float basicPay;
+
+    Employee(String name, int age, float basicPay) {
+        this.name = name;
+        this.age = age;
+        this.basicPay = basicPay;
+    }
 }
 
 class Programmers extends Employee {
     String department;
     float bonus;
- 
 
-    Programmers(String N, int A, float B_Pay, float bns, String dept) {
-        Name = N;
-        age = A;
-        Basic_Pay = B_Pay;
-        bonus = bns;
-        department = dept;
+    Programmers(String name, int age, float basicPay, float bonus, String department) {
+        super(name, age, basicPay);
+        this.bonus = bonus;
+        this.department = department;
     }
 
-    void totalsalary() {
-    float totalSalary = Basic_Pay + bonus;
-
-    System.out.println("Name = " + Name);
-    System.out.println("Age = " + age);
-    System.out.println("Department = " + department);
-    System.out.println("Total Salary = " + totalSalary);
-    System.out.println();
+    void totalSalary() {
+        float totalSalary = basicPay + bonus;
+        System.out.println("Name = " + name);
+        System.out.println("Age = " + age);
+        System.out.println("Department = " + department);
+        System.out.println("Total Salary = " + totalSalary);
+        System.out.println();
+    }
 }
-
 
 }
 
 public class ThirtyFour {
     public static void main(String[] args) {
-        Programmers A=new Programmers("Suni", 18, 1500, 50, "cs");
-        Programmers B=new Programmers("Biju", 20, 3500, 550, "Maths");
-        A.totalsalary();
-        B.totalsalary();     
+        Programmers a = new Programmers("Suni", 18, 1500, 50, "cs");
+        Programmers b = new Programmers("Biju", 20, 3500, 550, "Maths");
+        a.totalSalary();
+        b.totalSalary();     
     }
 }
