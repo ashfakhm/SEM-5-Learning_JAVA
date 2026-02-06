@@ -16,7 +16,6 @@ class GreatestOfThree extends GreatestOfTwo {
         super(x, y);
         this.z = z;
     }
-    @Override
     int greatest() {
         return Math.max(Math.max(x, y), z);
     }
