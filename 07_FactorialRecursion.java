@@ -9,11 +9,7 @@ class Factorial {
 		return n * fact(n - 1);
 	}
 }
-class Recursion{
-public static void main(String Args[]){
-Factorial f = new Factorial();
-System.out.println("Factorial of 5 is"+" "+f.fact(5));
-}
+
 // Main class to test factorial calculation
 class Recursion {
 	public static void main(String args[]) {
