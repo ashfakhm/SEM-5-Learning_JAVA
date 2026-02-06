@@ -1,8 +1,8 @@
 import java.util.*;
-interface shape{
+interface Shape{
     void area();
 }
-class Circle implements shape{
+class Circle implements Shape{
     double radius;
 
 Circle(double radius){
@@ -13,9 +13,9 @@ public void area(){
     System.out.println("Area Of Circle: "+area);
 }
 }
-class sphere implements shape{
+class Sphere implements Shape{
 double radius;
-sphere(double radius){
+Sphere(double radius){
 this.radius=radius;
 }
 public void area()
@@ -24,7 +24,7 @@ double area=4*3.14*radius*radius;
 System.out.println("Area Of Sphere: "+area);
 }
 }
-public class interfacedemo{
+public class InterfaceDemo{
     public static void main(String[] args) {
         Scanner s=new Scanner(System.in);
         System.out.println("Enter The Radius Of The Circle");
@@ -32,7 +32,7 @@ public class interfacedemo{
         Circle c=new Circle(radius);
         System.out.println("Enter The Radius of Sphere");
         int sr=s.nextInt();
-        sphere sp = new sphere(sr);
+        Sphere sp = new Sphere(sr);
         c.area();
         sp.area();
         s.close();
