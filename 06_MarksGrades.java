@@ -2,7 +2,7 @@ import java.util.*;
 class Grade{
 public static void main(String args[])
 	{
-	int Avg,a,b,c,Cgpa;
+	int a,b,c,Avg,Cgpa;
 	Scanner s=new Scanner(System.in);
 	System.out.println("Enter Your Marks");
 		a=s.nextInt();
