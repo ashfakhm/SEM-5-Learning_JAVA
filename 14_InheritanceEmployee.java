@@ -43,8 +43,6 @@ class Programmers extends Employee {
     }
 }
 
-}
-
 public class ThirtyFour {
     public static void main(String[] args) {
         Programmers a = new Programmers("Suni", 18, 1500, 50, "cs");
