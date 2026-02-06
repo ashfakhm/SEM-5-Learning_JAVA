@@ -15,7 +15,8 @@ public static void main(String args[])
 		
 		switch(Cgpa)
 		{
-		case 10 :
+		case 10 :System.out.println("O Grade");
+				break;
 		case 9  : System.out.println("A Grade");
 				break;
 		case 8  : System.out.println("B Grade");
