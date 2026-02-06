@@ -2,18 +2,18 @@ import java.util.*;
 class Grade{
 public static void main(String args[])
 	{
-	int Avg,a,b,c,d;
+	int Avg,a,b,c,Cgpa;
 	Scanner s=new Scanner(System.in);
 	System.out.println("Enter Your Marks");
 		a=s.nextInt();
 		b=s.nextInt();
 		c=s.nextInt();
 		Avg=(a+b+c)/3;
-		d=Avg/10;
+		Cgpa=Avg/10;
 		System.out.println("Average Is "+Avg);
 		
 		
-		switch(d)
+		switch(Cgpa)
 		{
 		case 10 :
 		case 9  : System.out.println("A Grade");
