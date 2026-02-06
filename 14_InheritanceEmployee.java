@@ -1,14 +1,14 @@
-//Create A Class Employee With Data Members 
-//name 
-//Age basic Pay
-//Create A subclass programmers With Datamembers department and bonus
-//and also a method total salary which calculate total salary
-//in the main class create object for only the subclass 
-//and display the following details 
-//name
-//age 
-//department
-//total salary
+// Create A Class Employee With Data Members 
+// name 
+// Age basic Pay
+// Create A subclass programmers With Datamembers department and bonus
+// and also a method total salary which calculate total salary
+// in the main class create object for only the subclass 
+// and display the following details 
+// name
+// age 
+// department
+// total salary
 
 
 class Employee {
